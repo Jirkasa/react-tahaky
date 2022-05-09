@@ -61,9 +61,22 @@
 .section {
     padding: 3.2rem;
 
+    &--dark-bg {
+        background-color: @colors[grey-20];
+    }
+
     &__content {
         margin: 0 auto;
         max-width: @grid-width;
+    }
+
+    &__intro-text {
+        #display-12-grid();
+        text-align: center;
+
+        p {
+            grid-column: 3 / span 8;
+        }
     }
 }
 
@@ -81,5 +94,13 @@
 
     &__content {
         flex: 1 0 0;
+    }
+}
+
+.cheatsheets-container {
+    #display-12-grid();
+
+    > div {
+        grid-column: span 3;
     }
 }

@@ -15,3 +15,21 @@
         padding: 1.6rem 2.4rem;
     }
 }
+
+.icon-button {
+    &:link, &:visited {
+        display: block;
+        font-size: 0;
+
+        padding: 1.6rem;
+
+        background-color: @colors[primary];
+        border-radius: .4rem;
+    }
+
+    svg {
+        width: 2.4rem;
+        height: 2.4rem;
+        fill: @colors[white];
+    }
+}
