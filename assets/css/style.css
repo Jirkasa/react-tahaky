@@ -39,6 +39,10 @@ body {
 .paragraph--light {
   color: #fff;
 }
+::selection {
+  background-color: #34A9C9;
+  color: #fff;
+}
 .u-mb-1 {
   margin-bottom: 0.4rem !important;
 }
@@ -89,6 +93,14 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.6rem 2.4rem;
+  transition: all 0.1s;
+  user-select: none;
+}
+.button-primary:hover {
+  background-color: #2f98b5;
+}
+.button-primary:active {
+  background-color: #2a87a0;
 }
 .button-primary--small:link,
 .button-primary--small:visited {
@@ -101,6 +113,12 @@ body {
   padding: 1.6rem;
   background-color: #34A9C9;
   border-radius: 0.4rem;
+}
+.icon-button:hover {
+  background-color: #2f98b5;
+}
+.icon-button:active {
+  background-color: #2a87a0;
 }
 .icon-button svg {
   width: 2.4rem;
