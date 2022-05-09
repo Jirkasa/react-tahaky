@@ -1,0 +1,43 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-triangle-of-triangles" viewBox="0 0 32 32">
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M28.22 31.432h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#63adc1" style="fill: var(--color2, #63adc1)" d="M22.672 25.888h3.704l-3.704-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M17.128 20.34h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#4a9db4" style="fill: var(--color3, #4a9db4)" d="M11.58 14.792h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M6.036 9.248h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M0.488 3.7h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M17.008 31.552h3.704l-3.704-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M11.464 26.004h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#4a9db4" style="fill: var(--color3, #4a9db4)" d="M5.916 20.456h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M0.372 14.912h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M5.8 31.668h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#4a9db4" style="fill: var(--color3, #4a9db4)" d="M0.252 26.12h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#4a9db4" style="fill: var(--color3, #4a9db4)" d="M22.452 31.652h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M16.908 26.108h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#63adc1" style="fill: var(--color2, #63adc1)" d="M11.36 20.56h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M5.816 15.016h3.7l-3.7-3.704v3.704z"></path>
+<path fill="#63adc1" style="fill: var(--color2, #63adc1)" d="M0.268 9.468h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#63adc1" style="fill: var(--color2, #63adc1)" d="M11.404 31.608h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M5.86 26.064h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M0.312 20.516h3.7l-3.7-3.7v3.7z"></path>
+<path fill="#206173" style="fill: var(--color1, #206173)" d="M0 31.924h3.7l-3.7-3.704v3.704z"></path>
+</symbol>
+<symbol id="icon-lines-icon" viewBox="0 0 9 32">
+<path fill="none" stroke="#4a9db4" style="stroke: var(--color3, #4a9db4)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="0.6214" d="M0.311 8.685v23.073"></path>
+<path fill="none" stroke="#63adc1" style="stroke: var(--color2, #63adc1)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="0.6214" d="M3.184 5.789v25.969"></path>
+<path fill="none" stroke="#1d5c6d" style="stroke: var(--color4, #1d5c6d)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="0.6214" d="M6.058 2.894v28.863"></path>
+<path fill="none" stroke="#206173" style="stroke: var(--color1, #206173)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="0.6214" d="M8.932 0v31.758"></path>
+</symbol>
+<symbol id="icon-cta-icon" viewBox="0 0 39 32">
+<path fill="#288199" style="fill: var(--color5, #288199)" d="M15.529 15.529l-15.529-15.529v31.058l15.529-15.529z"></path>
+<path fill="#288199" style="fill: var(--color5, #288199)" d="M39.111 15.529l-15.529-15.529v31.058l15.529-15.529z"></path>
+</symbol>
+<symbol id="icon-search" viewBox="0 0 32 32">
+<path d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path>
+</symbol>
+<symbol id="icon-download2" viewBox="0 0 32 32">
+<path d="M28 16h-5l-7 7-7-7h-5l-4 8v2h32v-2l-4-8zM0 28h32v2h-32v-2zM18 10v-8h-4v8h-7l9 9 9-9h-7z"></path>
+</symbol>
+</defs>
+</svg>
