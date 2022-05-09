@@ -1,5 +1,6 @@
 .button-primary {
     &:link, &:visited {
+        display: inline-block;
         font-size: 2.4rem;
         font-weight: 700;
         line-height: 1em;
@@ -14,11 +15,17 @@
 
         padding: 1.6rem 2.4rem;
     }
+
+    &--small {
+        &:link, &:visited {
+            font-size: 1.6rem;
+        }
+    }
 }
 
 .icon-button {
     &:link, &:visited {
-        display: block;
+        display: inline-block;
         font-size: 0;
 
         padding: 1.6rem;
