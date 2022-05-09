@@ -2,6 +2,8 @@
     padding: 3.2rem;
 
     height: 100vh;
+    min-height: 50rem;
+    max-height: 90rem;
 
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../assets/img/background-image.jpg");
     background-size: cover;
@@ -21,8 +23,19 @@
         text-align: center;
         margin-bottom: 3.2rem;
 
+        #respond-phone({
+            column-gap: 0;
+        });
+
         p {
             grid-column: 3 / span 8;
+
+            #respond-tab-port({
+                grid-column: 2 / span 10;
+            });
+            #respond-phone({
+                grid-column: 1 / span 12;
+            });
         }
     }
 
@@ -45,6 +58,10 @@
     &__cta-icon {
         width: 3.3rem;
         height: 2.621rem;
+
+        @media (max-width: #pxToEm(410)[]) {
+            display: none;
+        }
 
         svg {
             width: 100%;
@@ -74,8 +91,19 @@
         #display-12-grid();
         text-align: center;
 
+        #respond-phone({
+            column-gap: 0;
+        });
+
         p {
             grid-column: 3 / span 8;
+
+            #respond-tab-port({
+                grid-column: 2 / span 10;
+            });
+            #respond-phone({
+                grid-column: 1 / span 12;
+            });
         }
     }
 }
@@ -84,11 +112,20 @@
     display: flex;
     gap: 3.2rem;
 
+    @media (max-width: #pxToEm(1000)[]) {
+        flex-direction: column-reverse;
+    }
+
     &__image {
         flex: 1 0 0;
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         img {
             width: 100%;
+            max-width: 60rem;
         }
     }
 
@@ -100,7 +137,21 @@
 .cheatsheets-container {
     #display-12-grid();
 
+    #respond-phone({
+        column-gap: 0;
+    });
+
     > div {
         grid-column: span 3;
+
+        @media (max-width: #pxToEm(1170)[]) {
+            grid-column: span 4;
+        }
+        #respond-tab-port({
+            grid-column: span 6;
+        });
+        @media (max-width: #pxToEm(610)[]) {
+            grid-column: span 12;
+        }
     }
 }

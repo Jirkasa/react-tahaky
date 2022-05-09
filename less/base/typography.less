@@ -5,11 +5,18 @@ body {
 .heading-primary {
     font-size: 6.4rem;
     font-weight: 700;
-    line-height: 6.4rem;
+    line-height: 1em;
 
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: @colors[white];
+
+    @media (max-width: #pxToEm(360)[]) {
+        font-size: 5.6rem;
+    }
+    @media (max-width: #pxToEm(325)[]) {
+        font-size: 4.8rem;
+    }
 }
 
 .heading-secondary {
