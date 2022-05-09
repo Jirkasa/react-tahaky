@@ -30,6 +30,91 @@ body {
   box-sizing: border-box;
   background-color: #A5A5A5;
 }
+@keyframes moveInRight {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    transform: translateX(-50rem) scaleX(3);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(1.5rem) scaleX(1);
+  }
+  75% {
+    transform: translateX(-0.5rem) scaleX(0.98);
+  }
+  90% {
+    transform: translateX(0.2rem) scaleX(0.995);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes moveInLeft {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    transform: translateX(50rem) scaleX(-3);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-1.5rem) scaleX(-1);
+  }
+  75% {
+    transform: translateX(0.5rem) scaleX(-0.98);
+  }
+  90% {
+    transform: translateX(-0.2rem) scaleX(-0.995);
+  }
+  to {
+    transform: translateX(0) scaleX(-1);
+  }
+}
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  30% {
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(15rem) scale(1.2);
+  }
+  70% {
+    opacity: 0.9;
+  }
+  80% {
+    transform: translateY(-0.5rem) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -138,6 +223,9 @@ body {
 }
 .button-primary:active {
   background-color: #2a87a0;
+}
+.button-primary--animated {
+  animation: scaleIn 0.5s 1.2s ease-out both;
 }
 .button-primary--small:link,
 .button-primary--small:visited {
@@ -253,10 +341,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 .welcome-section__content {
   max-width: 112rem;
   width: 100%;
+  animation: moveInUp 0.8s ease-in both;
 }
 .welcome-section__text {
   display: grid;
@@ -310,8 +400,12 @@ body {
   height: 100%;
   fill: #288199;
 }
+.welcome-section__cta-icon--left {
+  animation: moveInRight 0.8s 0.8s alternate both;
+}
 .welcome-section__cta-icon--right {
   transform: scaleX(-1);
+  animation: moveInLeft 0.8s 0.8s alternate both;
 }
 .section {
   padding: 3.2rem;

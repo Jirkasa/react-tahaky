@@ -13,9 +13,13 @@
     justify-content: center;
     align-items: center;
 
+    overflow-x: hidden;
+
     &__content {
         max-width: @grid-width;
         width: 100%;
+
+        animation: moveInUp .8s ease-in both;
     }
 
     &__text {
@@ -69,8 +73,13 @@
             fill: #288199;
         }
 
+        &--left {
+            animation: moveInRight .8s .8s alternate both;
+        }
+
         &--right {
             transform: scaleX(-1);
+            animation: moveInLeft .8s .8s alternate both;
         }
     }
 }
